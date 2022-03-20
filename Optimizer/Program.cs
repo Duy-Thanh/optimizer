@@ -13,14 +13,19 @@ namespace Optimizer
         /* VERSION PROPERTIES */
         /* DO NOT LEAVE THEM EMPTY */
 
-        internal readonly static float Major = 12;
-        internal readonly static float Minor = 0;
+        internal readonly static float Major = 14;
+        internal readonly static float Minor = 02;
+        internal readonly static float Fixes = 00;
 
-        internal readonly static bool EXPERIMENTAL_BUILD = false;
+        internal readonly static bool EXPERIMENTAL_BUILD = true;
 
         internal static string GetCurrentVersionTostring()
         {
-            return Major.ToString() + "." + Minor.ToString();
+            return Major.ToString() + 
+                "." + 
+                Minor.ToString() + 
+                "." + 
+                Fixes.ToString();
         }
 
         internal static float GetCurrentVersion()

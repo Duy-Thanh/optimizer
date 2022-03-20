@@ -19,7 +19,7 @@ namespace Optimizer.Properties {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class Resources {
@@ -79,7 +79,7 @@ namespace Optimizer.Properties {
         ///[HKEY_CLASSES_ROOT\Directory\Background\shell\OpenWithCMD\command]
         ///@=&quot;cmd.exe /s /k pushd \&quot;%V\&quot;&quot;
         ///
-        ///[HKEY_CLASSES_ROOT\Drive\shell\OpenWit [rest of string was truncated]&quot;;.
+        ///[HKEY_CLASSES_ROOT\D [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string AddOpenWithCMD {
             get {
@@ -142,13 +142,13 @@ namespace Optimizer.Properties {
         ///	&quot;restartButton10&quot;: &quot;Restartovat nyní&quot;,
         ///	&quot;restartAndApply&quot;: &quot;Restartovat a použít změny?&quot;,
         ///	&quot;txtVersion&quot;: &quot;Verze: {VN}&quot;,
-        ///	&quot;txtBitness&quot;: &quot;Pracujete s {BITS}&quot;,
+        ///	&quot;txtBitness&quot;: &quot;Pracujete s {BITS}ovou verzí&quot;,
         ///	&quot;linkUpdate&quot;: &quot;Dostupná aktualizace&quot;,
         ///	&quot;lblLab&quot;: &quot;Experimentální sestavení\n(po testování smazat)&quot;,
-        ///	&quot;performanceSw&quot;: &quot;Povolit vylepšení výkonu&quot;,
-        ///	&quot;networkSw&quot;: &quot;Zakázat omezení sítě&quot;,
+        ///	&quot;performanceSw&quot;: &quot;Povolit Vylepšení výkonu&quot;,
+        ///	&quot;networkSw&quot;: &quot;Zakázat Omezení sítě&quot;,
         ///	&quot;defenderSw&quot;: &quot;Zakázat Windows Defender&quot;,
-        ///	&quot;systemRestore [rest of string was truncated]&quot;;.
+        ///	&quot;sys [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string CZ {
             get {
@@ -169,17 +169,17 @@ namespace Optimizer.Properties {
         /// <summary>
         ///   Looks up a localized string similar to {
         ///	&quot;btnAbout&quot;: &quot;OK&quot;,
-        ///	&quot;restartButton&quot;: &quot;Jetzt neustarten&quot;,
-        ///	&quot;restartButton8&quot;: &quot;Jetzt neustarten&quot;,
-        ///	&quot;restartButton10&quot;: &quot;Jetzt neustarten&quot;,
-        ///	&quot;restartAndApply&quot;: &quot;Neustarten, um Änderungen anzuwenden?&quot;,
+        ///	&quot;restartButton&quot;: &quot;Jetzt neu starten&quot;,
+        ///	&quot;restartButton8&quot;: &quot;Jetzt neu starten&quot;,
+        ///	&quot;restartButton10&quot;: &quot;Jetzt neu starten&quot;,
+        ///	&quot;restartAndApply&quot;: &quot;Neu starten, um Änderungen anzuwenden?&quot;,
         ///	&quot;txtVersion&quot;: &quot;Version: {VN}&quot;,
-        ///	&quot;txtBitness&quot;: &quot;Sie arbeiten mit {BITS}&quot;,
+        ///	&quot;txtBitness&quot;: &quot;Betriebssystem: {BITS}&quot;,
         ///	&quot;linkUpdate&quot;: &quot;Update verfügbar&quot;,
         ///	&quot;lblLab&quot;: &quot;Experimenteller Build\n(nach dem Testen löschen)&quot;,
-        ///	&quot;performanceSw&quot;: &quot;Leistungsoptimierungen aktivieren&quot;,
+        ///	&quot;performanceSw&quot;: &quot;Leistungsoptimierung aktivieren&quot;,
         ///	&quot;networkSw&quot;: &quot;Netzwerkdrosselung deaktivieren&quot;,
-        ///	&quot;defenderSw&quot;: &quot;Windows Defender deak [rest of string was truncated]&quot;;.
+        ///	&quot;defenderSw&quot;: &quot;Windows  [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string DE {
             get {
@@ -216,8 +216,7 @@ namespace Optimizer.Properties {
         ///rem &quot;DisableAntiSpyware&quot; is discontinued and will be ignored on client devices, as of the August 2020 (version 4.18.2007.8) update to Microsoft Defender Antivirus.
         ///
         ///rem Disable Tamper Protection First !!!!!
-        ///rem https://www.tenforums.com/tutorials/123792-turn-off-tamper-protection-windows-defender-antivirus.html
-        ///reg [rest of string was truncated]&quot;;.
+        ///rem https://www.tenforums.com/tutorials/123792-turn-off-tamper-protection-windows-defender-antivirus.ht [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string DisableDefenderSafeMode1903Plus {
             get {
@@ -240,7 +239,7 @@ namespace Optimizer.Properties {
         ///&quot;xlsolution&quot;=dword:00000001
         /// 
         ///[HKEY_CURRENT_USER\Software\Policies\microsoft\office\16.0\osm\preventedsolutiontypes]
-        ///&quot;agave&quot;=dword:0000000 [rest of string was truncated]&quot;;.
+        ///&quot;agave&quot; [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string DisableOfficeTelemetry {
             get {
@@ -256,7 +255,7 @@ namespace Optimizer.Properties {
         ///
         ///schtasks /end /tn &quot;\Microsoft\Office\OfficeTelemetryAgentFallBack&quot;
         ///schtasks /change /tn &quot;\Microsoft\Office\OfficeTelemetryAgentFallBack&quot; /disable
-        ///schtasks /end /tn &quot;\Microsoft\Office\OfficeTelemetryAgentLogOn&quot; [rest of string was truncated]&quot;;.
+        ///schtasks /end /tn &quot;\Microsoft\Office\OfficeTelemetryAgen [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string DisableOfficeTelemetryTasks {
             get {
@@ -270,7 +269,7 @@ namespace Optimizer.Properties {
         ///schtasks /end /tn &quot;\Microsoft\Windows\Customer Experience Improvement Program\BthSQM&quot;
         ///schtasks /change /tn &quot;\Microsoft\Windows\Customer Experience Improvement Program\BthSQM&quot; /disable
         ///schtasks /end /tn &quot;\Microsoft\Windows\Customer Experience Improvement Program\KernelCeipTask&quot;
-        ///schtasks /change /tn &quot;\Microsoft\Windo [rest of string was truncated]&quot;;.
+        ///schtasks /change /tn &quot;\Microsoft\ [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string DisableTelemetryTasks {
             get {
@@ -305,7 +304,7 @@ namespace Optimizer.Properties {
         ///	&quot;performanceSw&quot;: &quot;Βελτιστοποίηση Απόδοσης Συστήματος&quot;,
         ///	&quot;networkSw&quot;: &quot;Βελτιστοποίηση Δικτύου&quot;,
         ///	&quot;defenderSw&quot;: &quot;Απενεργοποίηση Windows Defender&quot;,
-        ///	&quot;systemResto [rest of string was truncated]&quot;;.
+        /// [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string EL {
             get {
@@ -327,7 +326,7 @@ namespace Optimizer.Properties {
         ///	&quot;performanceSw&quot;: &quot;Enable Performance Tweaks&quot;,
         ///	&quot;networkSw&quot;: &quot;Disable Network Throttling&quot;,
         ///	&quot;defenderSw&quot;: &quot;Disable Windows Defender&quot;,
-        ///	&quot;systemRestoreSw&quot;: &quot;Disable System  [rest of string was truncated]&quot;;.
+        ///	&quot;systemRestoreSw&quot;: &quot;Di [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string EN {
             get {
@@ -371,7 +370,7 @@ namespace Optimizer.Properties {
         ///schtasks /change /tn &quot;\Microsoft\Office\OfficeTelemetryAgentLogOn&quot; /enable
         ///
         ///reg add &quot;HKCU\SOFTWARE\Microsoft\Office\15.0\Outlook\Options\Mail&quot; /v &quot;EnableLogging&quot; /t REG_DWORD /d 1 /f
-        ///reg add &quot;HKCU\SOFTWARE\Microsoft\Office\16.0\Outlook\Options\Mail&quot; /v &quot;EnableLogging&quot; /t  [rest of string was truncated]&quot;;.
+        ///reg add &quot;HKCU\SOFTWARE\Microsoft\Office\16.0\Outlook\Options\Mail&quot; /v &quot;EnableLoggi [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string EnableOfficeTelemetryTasks {
             get {
@@ -385,7 +384,7 @@ namespace Optimizer.Properties {
         ///schtasks /change /tn &quot;\Microsoft\Windows\Customer Experience Improvement Program\KernelCeipTask&quot; /enable
         ///schtasks /change /tn &quot;\Microsoft\Windows\Customer Experience Improvement Program\UsbCeip&quot; /enable
         ///schtasks /change /tn &quot;\Microsoft\Windows\Customer Experience Improvement Program\Uploader&quot; /enable
-        ///schtasks / [rest of string was truncated]&quot;;.
+        ///schta [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string EnableTelemetryTasks {
             get {
@@ -417,7 +416,7 @@ namespace Optimizer.Properties {
         ///	&quot;lblLab&quot;: &quot;Lamzamiento experimental\n(eliminar después de la prueba)&quot;,
         ///	&quot;CleanPreviewForm&quot;: &quot;Vista Previa Limpia&quot;,
         ///	&quot;performanceSw&quot;: &quot;Habilitar ajustes de rendimiento&quot;,
-        ///	&quot;networkSw&quot;: &quot;Deshabilitar la  [rest of string was truncated]&quot;;.
+        ///	&quot;networkSw&quot;: &quot;Desh [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string ES {
             get {
@@ -531,7 +530,7 @@ namespace Optimizer.Properties {
         ///&quot;NoWorkingDirectory&quot;=&quot;&quot;
         ///
         ///[HKEY_CLASSES_ROOT\Directory\shell\runas\command]
-        ///@=&quot;cmd.exe /c takeown /f \&quot;%1\&quot; /r /d y &amp;&amp; icacls \&quot;% [rest of string was truncated]&quot;;.
+        ///@=&quot;cmd.exe /c takeown /f \&quot;%1\&quot; /r /d  [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string InstallTakeOwnership {
             get {
@@ -552,7 +551,7 @@ namespace Optimizer.Properties {
         ///	&quot;lblLab&quot;: &quot;Build sperimentale\n(cancellare dopo il test)&quot;,
         ///	&quot;performanceSw&quot;: &quot;Abilita miglioramento prestazioni&quot;,
         ///	&quot;networkSw&quot;: &quot;Disabilita rallentamento della rete&quot;,
-        ///	&quot;defenderSw&quot;: &quot;Disabilita Windows Defender&quot;, [rest of string was truncated]&quot;;.
+        ///	&quot;defenderSw&quot;: &quot;Disabilita Window [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string IT {
             get {
@@ -624,7 +623,7 @@ namespace Optimizer.Properties {
         ///	&quot;linkUpdate&quot;: &quot;Nova atualização disponível&quot;,
         ///	&quot;lblLab&quot;: &quot;Experimentar nova implementação\n(deletar após teste)&quot;,
         ///	&quot;performanceSw&quot;: &quot;Habilitar ajustes de desempenho&quot;,
-        ///	&quot;networkSw&quot;: &quot;Des [rest of string was truncated]&quot;;.
+        ///	&quot;netw [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string PT {
             get {
@@ -659,8 +658,7 @@ namespace Optimizer.Properties {
         ///	&quot;CleanPreviewForm&quot;: &quot;Чистый предварительный просмотр&quot;,
         ///	&quot;linkUpdate&quot;: &quot;обновление доступно&quot;,
         ///	&quot;lblLab&quot;: &quot;экспериментальная сборка\n(удалить после тестирования)&quot;,
-        ///	&quot;performanceSw&quot;: &quot;Вкл Настройки производительности&quot;,
-        ///	&quot;n [rest of string was truncated]&quot;;.
+        ///	&quot;performanceSw&quot;: &quot;Вкл Настройки производитель [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string RU {
             get {
@@ -744,7 +742,7 @@ namespace Optimizer.Properties {
         ///	&quot;linkUpdate&quot;: &quot;Güncelleme Mevcut&quot;,
         ///	&quot;lblLab&quot;: &quot;Deneysel Yapı\n(Testten sonra silin)&quot;,
         ///	&quot;performanceSw&quot;: &quot;Performans Ayarlarını Etkinleştir&quot;,
-        ///	&quot;networkSw&quot;: &quot;Ağ Kısıtlamasını [rest of string was truncated]&quot;;.
+        ///	&quot;networkSw&quot;: &quot;Ağ K [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string TR {
             get {
